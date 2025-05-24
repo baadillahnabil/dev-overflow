@@ -61,6 +61,7 @@ const eslintConfig = [
 
     rules: {
       "no-undef": "off",
+      "tailwindcss/no-custom-classname": "off",
     },
   },
 ]
