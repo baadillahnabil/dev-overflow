@@ -1,3 +1,8 @@
 export default function Home() {
-  return <div>Welcome to NextJs</div>
+  return (
+    <>
+      <h1 className="h1-bold">Welcome to NextJs</h1>
+      <h1 className="h1-bold font-space-grotesk">Welcome to NextJs</h1>
+    </>
+  )
 }
