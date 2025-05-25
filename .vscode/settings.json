@@ -30,7 +30,8 @@
     "darknone",
     "devicon",
     "grotesk",
-    "mdxeditor"
+    "mdxeditor",
+    "upvotes"
   ],
   "[dotenv]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
