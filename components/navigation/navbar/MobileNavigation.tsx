@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import NavLinks from "@/components/navbar/NavLinks"
+import NavLinks from "@/components/navigation/navbar/NavLinks"
 import { Button } from "@/components/ui/button"
 import {
   Sheet,
