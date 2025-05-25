@@ -1,7 +1,7 @@
 "use client"
 
 import AuthForm from "@/components/forms/AuthForm"
-import { SignInSchema } from "@/constants/validations"
+import { SignInSchema } from "@/lib/validations"
 
 const SignIn = () => {
   return (
