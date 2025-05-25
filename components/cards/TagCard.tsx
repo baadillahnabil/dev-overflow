@@ -1,19 +1,20 @@
 import Link from "next/link"
 
-import { Badge } from "@/components/ui/badge"
 import ROUTES from "@/constants/route"
-import { getDevIconClassName } from "@/lib/utils"
+import { getDeviconClassName } from "@/lib/utils"
+
+import { Badge } from "../ui/badge"
 
 interface Props {
   _id: string
   name: string
-  questions: number
+  questions?: number
   showCount?: boolean
   compact?: boolean
 }
 
 const TagCard = ({ _id, name, questions, showCount }: Props) => {
-  const iconClass = getDevIconClassName(name)
+  const iconClass = getDeviconClassName(name)
 
   return (
     <Link href={ROUTES.TAGS(_id)} className="flex justify-between gap-2">
