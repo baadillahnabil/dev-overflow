@@ -29,10 +29,12 @@
     "darkgradient",
     "darknone",
     "devicon",
+    "devoverflow",
     "downvotes",
     "grotesk",
     "mdxeditor",
-    "upvotes"
+    "upvotes",
+    "vecteezy"
   ],
   "[dotenv]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
